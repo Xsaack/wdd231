@@ -1,0 +1,159 @@
+/* Base styles */
+:root {
+    --primary-color: #2c3e50;
+    --secondary-color: #3498db;
+    --accent-color: #e74c3c;
+    --text-color: #333;
+    --light-color: #ecf0f1;
+    --dark-color: #2c3e50;
+    --completed-color: #2ecc71;
+    --incomplete-color: #e74c3c;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.6;
+    color: var(--text-color);
+    margin: 0;
+    padding: 0;
+    min-width: 320px;
+}
+
+header {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+.header-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+header img {
+    border-radius: 50%;
+    border: 3px solid var(--light-color);
+}
+
+header span {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+nav {
+    background-color: var(--secondary-color);
+    padding: 0.5rem;
+}
+
+#primary-nav {
+    display: none;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    flex-direction: column;
+}
+
+#primary-nav.active {
+    display: flex;
+}
+
+#primary-nav li {
+    padding: 0.5rem;
+}
+
+#primary-nav li a {
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+
+#primary-nav li.active a {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+#menu-button {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+main {
+    padding: 1rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+h1, h2 {
+    font-family: 'Roboto', sans-serif;
+    color: var(--primary-color);
+}
+
+section {
+    margin-bottom: 2rem;
+    padding: 1rem;
+    background-color: var(--light-color);
+    border-radius: 5px;
+}
+
+.filter-buttons {
+    display: flex;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.filter-buttons button {
+    padding: 0.5rem 1rem;
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.filter-buttons button:hover {
+    background-color: var(--secondary-color);
+}
+
+#course-cards {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+}
+
+.course-card {
+    padding: 1rem;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.course-card.completed {
+    border-left: 5px solid var(--completed-color);
+}
+
+.course-card:not(.completed) {
+    border-left: 5px solid var(--incomplete-color);
+}
+
+#credit-total {
+    margin-top: 1rem;
+    font-weight: bold;
+    text-align: right;
+}
+
+footer {
+    background-color: var(--dark-color);
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+footer p {
+    margin: 0.5rem 0;
+}
