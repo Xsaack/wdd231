@@ -1,0 +1,65 @@
+[
+    {
+        "name": "Hotel Playa Mazatlán",
+        "address": "Av. Playa Gaviotas 202",
+        "phone": "669-123-4567",
+        "website": "https://hotelplayamazatlan.com",
+        "image": "hotel-playa.jpg",
+        "membership": 3,
+        "description": "Beachfront hotel with corporate events."
+    },
+    {
+        "name": "El Presidio Restaurant",
+        "address": "Calle Constitución #100",
+        "phone": "669-987-6543",
+        "website": "https://elpresidio.com",
+        "image": "el-presidio.jpg",
+        "membership": 2,
+        "description": "Traditional Sinaloan cuisine."
+    },
+    {
+        "name": "Mazatlán Aquarium",
+        "address": "Av. de los Deportes 111",
+        "phone": "669-555-1234",
+        "website": "https://acuariomazatlan.com",
+        "image": "acuario.jpg",
+        "membership": 1,
+        "description": "Family-friendly tourist attraction."
+    },
+    {
+        "name": "Mazatlán Marina",
+        "address": "Av. Sabalo Cerritos",
+        "phone": "669-222-3333",
+        "website": "https://marinamazatlan.com",
+        "image": "marina.jpg",
+        "membership": 3,
+        "description": "Nautical services and events."
+    },
+    {
+        "name": "Café Pacífico",
+        "address": "Calle Carnaval 505",
+        "phone": "669-444-5555",
+        "website": "https://cafepacifico.com",
+        "image": "cafe-pacifico.jpg",
+        "membership": 2,
+        "description": "Specialty coffee and coworking space."
+    },
+    {
+        "name": "Mar de Cortés Transportation",
+        "address": "Blvd. Marina 789",
+        "phone": "669-777-8888",
+        "website": "https://transportedecortes.com",
+        "image": "transporte.jpg",
+        "membership": 1,
+        "description": "Touristic and corporate transportation."
+    },
+    {
+        "name": "Mazatlán Art Gallery",
+        "address": "Calle Sixto Osuna 303",
+        "phone": "669-999-0000",
+        "website": "https://galeriamazatlan.com",
+        "image": "galeria.jpg",
+        "membership": 2,
+        "description": "Exhibitions by local artists."
+    }
+]

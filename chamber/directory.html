@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Directory of businesses affiliated with the Mazatlán Chamber of Commerce">
+    <meta name="author" content="Your Name">
+    
+    <!-- Facebook Meta Tags -->
+    <meta property="og:title" content="Business Directory | Mazatlán Chamber of Commerce">
+    <meta property="og:description" content="Find local businesses in Mazatlán">
+    <meta property="og:image" content="https://yourdomain.com/images/social-preview.jpg">
+    <meta property="og:url" content="https://yourdomain.com/directory.html">
+    
+    <title>Business Directory | Mazatlán Chamber of Commerce</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/directory.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="images/coc.jpg" alt="Mazatlán Chamber of Commerce">
+            <h1>Mazatlán Chamber of Commerce</h1>
+        </div>
+        <nav>
+            <button id="menu-toggle">☰</button>
+            <ul id="nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="discover.html">Discover</a></li>
+                <li class="active"><a href="directory.html">Directory</a></li>
+                <li><a href="join.html">Join</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Member Directory</h2>
+        <div class="view-toggle">
+            <button id="grid-view">☷ Grid</button>
+            <button id="list-view">☰ List</button>
+        </div>
+        <div id="member-container" class="grid-view">
+            <!-- JS will populate this -->
+        </div>
+    </main>
+
+    <footer>
+        <div class="contact">
+            <p>Mazatlán Chamber of Commerce</p>
+            <p>Av. Del Mar #123, Centro</p>
+            <p>Mazatlán, Sinaloa</p>
+            <p>Phone: 669-123-4567</p>
+        </div>
+        <div class="dev-info">
+            <p>&copy;<span id="current-year"></span> | Your Name | WDD 230</p>
+            <p>Last Updated: <span id="last-modified"></span></p>
+        </div>
+    </footer>
+
+    <script src="scripts/main.js"></script>
+    <script src="scripts/directory.js"></script>
+</body>
+</html>
