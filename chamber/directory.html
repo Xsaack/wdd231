@@ -1,19 +1,20 @@
 <!DOCTYPE html>
-<html lang="en-US">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Directory of businesses affiliated with the Mazatlán Chamber of Commerce">
-    <meta name="author" content="Your Name">
+    <meta name="description" content="Mazatlán Chamber of Commerce - Business Directory">
+    <meta name="author" content="Isaac Gaxiola Franco">
+    <title>Mazatlán Chamber | Business Directory</title>
     
-    <!-- Facebook Meta Tags -->
-    <meta property="og:title" content="Business Directory | Mazatlán Chamber of Commerce">
-    <meta property="og:description" content="Find local businesses in Mazatlán">
-    <meta property="og:image" content="https://yourdomain.com/images/social-preview.jpg">
-    <meta property="og:url" content="https://yourdomain.com/directory.html">
+    <!-- Social Media Meta Tags (Facebook) -->
+    <meta property="og:title" content="Mazatlán Chamber of Commerce">
+    <meta property="og:description" content="Discover local businesses in Mazatlán">
+    <meta property="og:image" content="https://example.com/images/social-preview.jpg">
+    <meta property="og:url" content="https://example.com/directory.html">
     
-    <title>Business Directory | Mazatlán Chamber of Commerce</title>
-    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <!-- Favicon -->
+    <link rel="icon" href="images/favicon.ico">
     
     <!-- CSS -->
     <link rel="stylesheet" href="styles/normalize.css">
@@ -21,43 +22,48 @@
     <link rel="stylesheet" href="styles/directory.css">
 </head>
 <body>
-    <header>
+<header>
+    <div class="header-container">
         <div class="logo">
-            <img src="images/coc.jpg" alt="Mazatlán Chamber of Commerce">
-            <h1>Mazatlán Chamber of Commerce</h1>
+            <img src="images/img.jpg" alt="Mazatlán Chamber Logo">
+            <div class="logo-text">
+                <h1>Mazatlán</h1>
+                <p>Chamber of Commerce</p>
+            </div>
         </div>
-        <nav>
-            <button id="menu-toggle">☰</button>
-            <ul id="nav-menu">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="discover.html">Discover</a></li>
-                <li class="active"><a href="directory.html">Directory</a></li>
-                <li><a href="join.html">Join</a></li>
-            </ul>
-        </nav>
-    </header>
+    <nav>
+        <button id="hamburger" aria-label="Menu">☰</button>
+        <ul id="nav-menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="discover.html">Discover</a></li>
+            <li class="active"><a href="directory.html">Directory</a></li>
+            <li><a href="join.html">Join</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+</header>
 
     <main>
-        <h2>Member Directory</h2>
+        <h2>Business Directory</h2>
         <div class="view-toggle">
-            <button id="grid-view">☷ Grid</button>
-            <button id="list-view">☰ List</button>
+            <button id="grid-view">Grid View</button>
+            <button id="list-view">List View</button>
         </div>
         <div id="member-container" class="grid-view">
-            <!-- JS will populate this -->
+            <!-- JavaScript will populate this -->
         </div>
     </main>
 
     <footer>
-        <div class="contact">
-            <p>Mazatlán Chamber of Commerce</p>
-            <p>Av. Del Mar #123, Centro</p>
-            <p>Mazatlán, Sinaloa</p>
-            <p>Phone: 669-123-4567</p>
+        <div class="contact-info">
+            <p>📍 Av. del Mar 123, Mazatlán, Sin.</p>
+            <p>📞 +52 669 123 4567</p>
+            <p>📧 contact@mazatlanchamber.org</p>
         </div>
         <div class="dev-info">
-            <p>&copy;<span id="current-year"></span> | Your Name | WDD 230</p>
-            <p>Last Updated: <span id="last-modified"></span></p>
+            <p>© <span id="copyright-year"></span> Mazatlán Chamber</p>
+            <p>Isaac Gaxiola Franco | Mazatlan, Mexico | WDD231</p>
+            <p>Last Modified: <span id="last-modified"></span></p>
         </div>
     </footer>
 

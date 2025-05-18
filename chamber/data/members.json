@@ -1,65 +1,65 @@
 [
     {
         "name": "Hotel Playa Mazatlán",
-        "address": "Av. Playa Gaviotas 202",
-        "phone": "669-123-4567",
+        "address": "Av. Playa Gaviotas 202, Zona Dorada",
+        "phone": "+52 669 989 0555",
         "website": "https://hotelplayamazatlan.com",
-        "image": "hotel-playa.jpg",
+        "image": "playa-mazatlan.png",
         "membership": 3,
-        "description": "Beachfront hotel with corporate events."
+        "description": "Beachfront resort since 1955"
     },
     {
-        "name": "El Presidio Restaurant",
-        "address": "Calle Constitución #100",
-        "phone": "669-987-6543",
-        "website": "https://elpresidio.com",
-        "image": "el-presidio.jpg",
+        "name": "El Shrimp Bucket",
+        "address": "Olas Altas 11, Centro Histórico",
+        "phone": "+52 669 981 6350",
+        "website": "https://elshrimpbucket.com",
+        "image": "shrimp-bucket.png",
         "membership": 2,
-        "description": "Traditional Sinaloan cuisine."
+        "description": "Iconic seafood restaurant"
+    },
+    {
+        "name": "Mazatlán International Center",
+        "address": "Av. Ejército Mexicano s/n, Marina Mazatlán",
+        "phone": "+52 669 989 5599",
+        "website": "https://cimazatlan.com",
+        "image": "convention-center.png",
+        "membership": 3,
+        "description": "Convention and event venue"
+    },
+    {
+        "name": "Pueblo Bonito Emerald Bay",
+        "address": "Av. Ernesto Coppel Campana 2015",
+        "phone": "+52 669 989 0525",
+        "website": "https://pueblobonito.com",
+        "image": "pueblo-bonito.png",
+        "membership": 3,
+        "description": "Luxury resort & spa"
     },
     {
         "name": "Mazatlán Aquarium",
-        "address": "Av. de los Deportes 111",
-        "phone": "669-555-1234",
+        "address": "Av. de los Deportes 111, Cerritos",
+        "phone": "+52 669 981 7815",
         "website": "https://acuariomazatlan.com",
-        "image": "acuario.jpg",
+        "image": "aquarium.png",
         "membership": 1,
-        "description": "Family-friendly tourist attraction."
+        "description": "Marine life exhibits"
     },
     {
-        "name": "Mazatlán Marina",
-        "address": "Av. Sabalo Cerritos",
-        "phone": "669-222-3333",
-        "website": "https://marinamazatlan.com",
-        "image": "marina.jpg",
-        "membership": 3,
-        "description": "Nautical services and events."
-    },
-    {
-        "name": "Café Pacífico",
-        "address": "Calle Carnaval 505",
-        "phone": "669-444-5555",
-        "website": "https://cafepacifico.com",
-        "image": "cafe-pacifico.jpg",
+        "name": "Pacifico Brewery",
+        "address": "Av. Emilio Barragán 1400, Industrial",
+        "phone": "+52 669 985 4500",
+        "website": "https://cerveceriapacifico.com.mx",
+        "image": "pacifico.png",
         "membership": 2,
-        "description": "Specialty coffee and coworking space."
+        "description": "Home of Pacifico beer"
     },
     {
-        "name": "Mar de Cortés Transportation",
-        "address": "Blvd. Marina 789",
-        "phone": "669-777-8888",
-        "website": "https://transportedecortes.com",
-        "image": "transporte.jpg",
+        "name": "Mazatlán Malecón",
+        "address": "Paseo Claussen, Centro",
+        "phone": "+52 669 982 4444",
+        "website": "https://visitmazatlan.com",
+        "image": "malecon.png",
         "membership": 1,
-        "description": "Touristic and corporate transportation."
-    },
-    {
-        "name": "Mazatlán Art Gallery",
-        "address": "Calle Sixto Osuna 303",
-        "phone": "669-999-0000",
-        "website": "https://galeriamazatlan.com",
-        "image": "galeria.jpg",
-        "membership": 2,
-        "description": "Exhibitions by local artists."
+        "description": "Historic oceanfront boardwalk"
     }
 ]
