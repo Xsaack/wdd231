@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Mazatlán Chamber of Commerce - Promoting local businesses and community growth">
+    <meta name="author" content="Isaac Gaxiola Franco">
+    <title>Mazatlán Chamber of Commerce | Home</title>
+    
+    <!-- Social Media Meta Tags -->
+    <meta property="og:title" content="Mazatlán Chamber of Commerce">
+    <meta property="og:description" content="Promoting local businesses and community growth">
+    <meta property="og:image" content="https://example.com/images/hero.jpg">
+    <meta property="og:url" content="https://example.com">
+    
+    <!-- Favicon -->
+    <link rel="icon" href="images/favicon.ico">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <div class="logo">
+                <img src="images/img.jpg" alt="Mazatlán Chamber Logo" width="120" height="120">
+                <div class="logo-text">
+                    <h1>Mazatlán</h1>
+                    <p>Chamber of Commerce</p>
+                </div>
+            </div>
+            <nav>
+                <button id="hamburger" aria-label="Menu" aria-expanded="false">☰</button>
+                <ul id="nav-menu">
+                    <li class="active"><a href="index.html">Home</a></li>
+                    <li><a href="discover.html">Discover</a></li>
+                    <li><a href="directory.html">Directory</a></li>
+                    <li><a href="join.html">Join</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero">
+            <picture>
+                <source media="(max-width: 600px)" srcset="images/larger.jpeg">
+                <source media="(max-width: 1200px)" srcset="images/larger.jpeg">
+                <img src="images/larger.jpeg" alt="Mazatlán waterfront view" loading="lazy">
+            </picture>
+            <div class="hero-content">
+                <h2>Welcome to Mazatlán</h2>
+                <a href="join.html" class="cta-button">Join the Chamber</a>
+            </div>
+        </section>
+
+        <!-- Current Events -->
+        <section class="events">
+            <h2>Upcoming Events</h2>
+            <div class="event-card">
+                <h3>Business Networking Mixer</h3>
+                <p><strong>Date:</strong> June 15, 2023</p>
+                <p><strong>Location:</strong> Convention Center</p>
+                <p>Join us for an evening of networking with local business leaders.</p>
+            </div>
+            <div class="event-card">
+                <h3>Economic Summit</h3>
+                <p><strong>Date:</strong> July 22, 2023</p>
+                <p><strong>Location:</strong> Hotel Playa Mazatlán</p>
+                <p>Annual economic forecast and business strategy sessions.</p>
+            </div>
+        </section>
+
+        <!-- Weather Section -->
+        <section class="weather">
+            <h2>Current Weather</h2>
+            <div class="weather-card">
+                <div id="current-weather">
+                    <div class="weather-info">
+                        <img id="weather-icon" src="" alt="" width="64" height="64">
+                        <div>
+                            <p id="current-temp"></p>
+                            <p id="weather-desc"></p>
+                        </div>
+                    </div>
+                </div>
+                <div id="forecast">
+                    <h3>3-Day Forecast</h3>
+                    <div class="forecast-container"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Member Spotlights -->
+        <section class="spotlights">
+            <h2>Member Spotlights</h2>
+            <div class="spotlight-container" id="spotlight-container"></div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="contact-info">
+            <p>📍 Av. del Mar 123, Mazatlán, Sin.</p>
+            <p>📞 +52 669 123 4567</p>
+            <p>📧 contact@mazatlanchamber.org</p>
+        </div>
+        <div class="dev-info">
+            <p>© <span id="copyright-year"></span> Mazatlán Chamber</p>
+            <p>Isaac Gaxiola Franco | Mazatlán, Mexico | WDD231</p>
+            <p>Last Modified: <span id="last-modified"></span></p>
+        </div>
+    </footer>
+
+    <script src="scripts/main.js"></script>
+    <script src="scripts/weather.js"></script>
+    <script src="scripts/spotlights.js"></script>
+</body>
+</html>
