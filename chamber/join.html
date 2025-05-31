@@ -27,8 +27,8 @@
             <div class="logo">
                 <img src="images/img.jpg" alt="Mazatlán Chamber Logo" width="120" height="120">
                 <div class="logo-text">
-                    <h1>Mazatlán
-                    <p>Chamber of Commerce</p></h1>
+                    <h1>Mazatlán Chamber of Commerce</h1>
+                    <p class="logo-subtitle">Promoting local businesses</p>
                 </div>
             </div>
             <nav>
@@ -52,97 +52,92 @@
                 <fieldset>
                     <legend>Personal Information</legend>
                     
-                    <label>
-                        First Name*
-                        <input type="text" name="firstName" required 
-                               autocomplete="given-name" title="Please enter your first name">
-                    </label>
+                    <label for="firstName">First Name*</label>
+                    <input type="text" id="firstName" name="firstName" required 
+                           autocomplete="given-name" title="Please enter your first name">
                     
-                    <label>
-                        Last Name*
-                        <input type="text" name="lastName" required 
-                               autocomplete="family-name" title="Please enter your last name">
-                    </label>
+                    <label for="lastName">Last Name*</label>
+                    <input type="text" id="lastName" name="lastName" required 
+                           autocomplete="family-name" title="Please enter your last name">
                     
-                    <label>
-                        Title/Position
-                        <input type="text" name="title" 
-                               autocomplete="organization-title" 
-                               title="Please enter your organizational title">
-                    </label>
+                    <label for="title">Title/Position</label>
+                    <input type="text" id="title" name="title" 
+                           autocomplete="organization-title" 
+                           title="Please enter your organizational title"
+                           pattern="[A-Za-z -]{7,}">
                     
-                    <label>
-                        Email*
-                        <input type="email" name="email" required 
-                               autocomplete="email" 
-                               title="Please enter a valid email address"
-                               placeholder="example@domain.com">
-                    </label>
+                    <label for="email">Email*</label>
+                    <input type="email" id="email" name="email" required 
+                           autocomplete="email" 
+                           title="Please enter a valid email address"
+                           placeholder="example@domain.com">
                     
-                    <label>
-                        Mobile Phone*
-                        <input type="tel" name="phone" required 
-                               autocomplete="tel" 
-                               title="Please enter your mobile phone number">
-                    </label>
+                    <label for="phone">Mobile Phone*</label>
+                    <input type="tel" id="phone" name="phone" required 
+                           autocomplete="tel" 
+                           title="Please enter your mobile phone number">
                 </fieldset>
                 
                 <fieldset>
                     <legend>Business Information</legend>
                     
-                    <label>
-                        Business/Organization Name*
-                        <input type="text" name="businessName" required 
-                               autocomplete="organization" 
-                               title="Please enter your business or organization name">
-                    </label>
+                    <label for="businessName">Business/Organization Name*</label>
+                    <input type="text" id="businessName" name="businessName" required 
+                           autocomplete="organization" 
+                           title="Please enter your business or organization name">
                     
-                    <label>
-                        Business Description
-                        <textarea name="description" 
-                                  title="Please describe your business or organization"></textarea>
-                    </label>
+                    <label for="description">Business Description</label>
+                    <textarea id="description" name="description" 
+                              title="Please describe your business or organization"></textarea>
                 </fieldset>
                 
                 <fieldset>
                     <legend>Membership Level</legend>
                     
                     <div class="membership-options">
-                        <label class="membership-option">
-                            <input type="radio" name="membership" value="np" checked>
-                            <div class="option-content">
-                                <h3>NP Membership</h3>
-                                <p>Non-Profit Organizations</p>
-                                <p class="price">Free</p>
-                            </div>
-                        </label>
+                        <div class="membership-option">
+                            <input type="radio" id="np-membership" name="membership" value="np" checked>
+                            <label for="np-membership">
+                                <div class="option-content">
+                                    <h3>NP Membership</h3>
+                                    <p>Non-Profit Organizations</p>
+                                    <p class="price">Free</p>
+                                </div>
+                            </label>
+                        </div>
                         
-                        <label class="membership-option">
-                            <input type="radio" name="membership" value="bronze">
-                            <div class="option-content">
-                                <h3>Bronze Membership</h3>
-                                <p>Basic Benefits</p>
-                                <p class="price">$200/year</p>
-                            </div>
-                        </label>
+                        <div class="membership-option">
+                            <input type="radio" id="bronze-membership" name="membership" value="bronze">
+                            <label for="bronze-membership">
+                                <div class="option-content">
+                                    <h3>Bronze Membership</h3>
+                                    <p>Basic Benefits</p>
+                                    <p class="price">$200/year</p>
+                                </div>
+                            </label>
+                        </div>
                         
-                        <label class="membership-option">
-                            <input type="radio" name="membership" value="silver">
-                            <div class="option-content">
-                                <h3>Silver Membership</h3>
-                                <p>Enhanced Benefits</p>
-                                <p class="price">$400/year</p>
-                            </div>
-                        </label>
+                        <div class="membership-option">
+                            <input type="radio" id="silver-membership" name="membership" value="silver">
+                            <label for="silver-membership">
+                                <div class="option-content">
+                                    <h3>Silver Membership</h3>
+                                    <p>Enhanced Benefits</p>
+                                    <p class="price">$400/year</p>
+                                </div>
+                            </label>
+                        </div>
                         
-                        <label class="membership-option">
-                            <input type="radio" name="membership" value="gold">
-                            <div class="option-content">
-                                <h3>Gold Membership</h3>
-                                <p>Premium Benefits</p>
-                                <p class="price">$600/year</p>
-                            </div>
-                        </label>
+                        <div class="membership-option">
+                            <input type="radio" id="gold-membership" name="membership" value="gold">
+                            <label for="gold-membership">
+                                <div class="option-content">
+                                    <h3>Gold Membership</h3>
+                                    <p>Premium Benefits</p>
+                                    <p class="price">$600/year</p>
+                                </div>
+                            </label>
+                        </div>
                     </div>
                 </fieldset>
                 

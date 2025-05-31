@@ -61,6 +61,16 @@ header {
     line-height: 1;
 }
 
+.logo-subtitle {
+    margin: 0.25rem 0 0;
+    color: #005baa;
+    font-size: 1.1rem;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+
+
 .logo-text p {
     margin: 0.25rem 0 0;
     color: #005baa;
