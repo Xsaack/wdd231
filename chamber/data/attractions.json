@@ -1,0 +1,52 @@
+{
+  "attractions": [
+    {
+      "name": "Plaza Machado",
+      "address": "Constitución 1, Centro, 82000 Mazatlán, Sin.",
+      "description": "Historic square with music, restaurants, and culture.",
+      "image": "images/attractions/plaza-machado.webp"
+    },
+    {
+      "name": "Malecón",
+      "address": "Av. del Mar, Mazatlán, Sin.",
+      "description": "One of the longest boardwalks in the world.",
+      "image": "images/attractions/malecon.webp"
+    },
+    {
+      "name": "El Faro Lighthouse",
+      "address": "Cerro del Crestón, Mazatlán, Sin.",
+      "description": "Scenic views from the second-highest lighthouse in the world.",
+      "image": "images/attractions/faro.webp"
+    },
+    {
+      "name": "Acuario Mazatlán",
+      "address": "Av. de los Deportes, Mazatlán, Sin.",
+      "description": "Local aquarium featuring sea life from the Pacific.",
+      "image": "images/attractions/acuario.webp"
+    },
+    {
+      "name": "Centro Histórico",
+      "address": "Centro, Mazatlán, Sin.",
+      "description": "Colorful colonial buildings and local shops.",
+      "image": "images/attractions/historico.webp"
+    },
+    {
+      "name": "Catedral Basílica",
+      "address": "21 de Marzo 1, Centro, 82000 Mazatlán, Sin.",
+      "description": "Gothic-style cathedral in the heart of the city.",
+      "image": "images/attractions/catedral.webp"
+    },
+    {
+      "name": "Stone Island",
+      "address": "Isla de la Piedra, Mazatlán, Sin.",
+      "description": "Popular beach getaway with horseback rides.",
+      "image": "images/attractions/isla-piedra.webp"
+    },
+    {
+      "name": "Mazagua Water Park",
+      "address": "Av. Sábalo Cerritos, Mazatlán, Sin.",
+      "description": "Fun-filled water park for families.",
+      "image": "images/attractions/mazagua.webp"
+    }
+  ]
+}

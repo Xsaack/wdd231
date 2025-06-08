@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="description" content="Discover Mazatlán's local attractions."/>
+  <meta name="author" content="Isaac Gaxiola Franco"/>
+ <link rel="icon" href="images/favicon.ico">
+  <title>Discover Mazatlán | Chamber of Commerce</title>
+  <script src="scripts/main.js"></script>
+  <link rel="stylesheet" href="styles/normalize.css" />
+  <link rel="stylesheet" href="styles/base.css" />
+  <link rel="stylesheet" href="styles/discover.css" />
+  <script defer src="scripts/discover.js"></script>
+</head>
+<body>
+  <header>
+    <div class="header-container">
+      <div class="logo">
+        <img src="images/img.jpg" alt="Mazatlán Chamber Logo" />
+        <div class="logo-text">
+          <h1>Mazatlán Chamber of Commerce</h1>
+          <p class="logo-subtitle">Promoting local businesses</p>
+        </div>
+      </div>
+      <nav>
+        <button id="hamburger" aria-label="Menu">☰</button>
+        <ul id="nav-menu">
+          <li><a href="index.html">Home</a></li>
+          <li class="active"><a href="discover.html">Discover</a></li>
+          <li><a href="directory.html">Directory</a></li>
+          <li><a href="join.html">Join</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <aside class="visit-message" id="visit-message"></aside>
+    <section class="discover-grid" id="discover-grid"></section>
+  </main>
+
+  <footer>
+    <div class="contact-info">
+      <p>📍 Av. del Mar 123, Mazatlán, Sin.</p>
+      <p>📞 +52 669 123 4567</p>
+      <p>📧 contact@mazatlanchamber.org</p>
+    </div>
+    <div class="dev-info">
+      <p>© <span id="copyright-year"></span> Mazatlán Chamber</p>
+      <p>Isaac Gaxiola Franco | Mazatlán, Mexico | WDD231</p>
+      <p>Last Modified: <span id="last-modified"></span></p>
+    </div>
+  </footer>
+</body>
+</html>
