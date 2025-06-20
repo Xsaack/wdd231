@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Isaac Gaxiola Franco">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <title>Sparkle Home Cleaning | Professional Residential Cleaning Services</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="styles/siteplan.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header with Navigation -->
+    <header class="main-header">
+        <div class="container">
+            <div class="logo">
+                <i class="fas fa-broom"></i>
+                <h1>Sparkle Home Cleaning</h1>
+            </div>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="siteplan.html">Home</a></li>
+                    <li><a href="siteplan.html#services">Services</a></li>
+                    <li><a href="team.html">Our team</a></li>
+                    <li><a href="faq.html">FAQ</a></li>
+                    <li><a href="siteplan.html#contact">Contact</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="container">
+            <div class="hero-content">
+                <h2>Professional Cleaning for Your Busy Life</h2>
+                <p>We bring the sparkle back to your home with our eco-friendly cleaning solutions and attention to detail.</p>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn btn-primary">Get a Free Quote</a>
+                    <a href="tel:+15551234567" class="btn btn-secondary">
+                        <i class="fas fa-phone"></i> (555) 123-4567
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <div class="container">
+            <h2 class="section-title">Our Cleaning Services</h2>
+            <p class="section-subtitle">Tailored solutions for every home</p>
+            
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-home"></i>
+                    </div>
+                    <h3>Regular Cleaning</h3>
+                    <p>Weekly or bi-weekly maintenance cleaning to keep your home consistently fresh and tidy.</p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> Dusting all surfaces</li>
+                        <li><i class="fas fa-check"></i> Vacuuming & mopping</li>
+                        <li><i class="fas fa-check"></i> Kitchen & bathroom cleaning</li>
+                    </ul>
+                    <div class="service-price">Starting at $120</div>
+                </div>
+                
+                <div class="service-card featured">
+                    <div class="service-icon">
+                        <i class="fas fa-broom"></i>
+                    </div>
+                    <h3>Deep Cleaning</h3>
+                    <p>Thorough cleaning of your entire home, reaching areas often missed in regular cleaning.</p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> Baseboard cleaning</li>
+                        <li><i class="fas fa-check"></i> Inside appliances</li>
+                        <li><i class="fas fa-check"></i> Window sills & tracks</li>
+                        <li><i class="fas fa-check"></i> Detailed dusting</li>
+                    </ul>
+                    <div class="service-price">Starting at $250</div>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-truck-moving"></i>
+                    </div>
+                    <h3>Move In/Out Cleaning</h3>
+                    <p>Complete cleaning service for homes before moving in or after moving out.</p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> Cabinet interiors</li>
+                        <li><i class="fas fa-check"></i> Inside closets</li>
+                        <li><i class="fas fa-check"></i> Light fixtures</li>
+                        <li><i class="fas fa-check"></i> Walls & doors</li>
+                    </ul>
+                    <div class="service-price">Starting at $300</div>
+                </div>
+            </div>
+            
+            <div class="additional-services">
+                <h3>Additional Services:</h3>
+                <div class="service-tags">
+                    <span><i class="fas fa-window-maximize"></i> Window Cleaning</span>
+                    <span><i class="fas fa-rug"></i> Carpet Cleaning</span>
+                    <span><i class="fas fa-boxes"></i> Post-Construction</span>
+                    <span><i class="fas fa-calendar-alt"></i> One-Time Cleaning</span>
+                </div>
+            </div>
+        </div>
+        
+    </section>
+<!--testing-->
+    <section id="dynamic-services-section" class="dynamic-services container">
+        <h2>Available Cleaning Services</h2>
+        <div id="dynamic-services" class="services-grid"></div>
+    </section>
+
+        <!-- Modal -->
+        <div id="modal" class="modal">
+            <div id="modal-content" class="modal-content" tabindex="0" aria-modal="true" role="dialog">
+                <!-- Content injected by JS -->
+                <button id="modal-close" aria-label="Close modal">&times;</button>
+            </div>
+        </div>
+<!--testing-->
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2 class="section-title">Why Choose Sparkle Home Cleaning?</h2>
+                    <p>We're a locally-owned cleaning service dedicated to providing exceptional results with every visit. Our team of professional cleaners is trained in the latest cleaning techniques and uses eco-friendly products that are safe for your family and pets.</p>
+                    
+                    <div class="about-features">
+                        <div class="feature">
+                            <i class="fas fa-user-shield"></i>
+                            <h4>Background Checked</h4>
+                            <p>All our cleaners undergo thorough background checks</p>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-leaf"></i>
+                            <h4>Eco-Friendly</h4>
+                            <p>We use green cleaning products that are effective and safe</p>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-medal"></i>
+                            <h4>Insured & Bonded</h4>
+                            <p>Your home is protected with our insurance coverage</p>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-star"></i>
+                            <h4>Satisfaction Guaranteed</h4>
+                            <p>Not happy? We'll reclean at no additional cost</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <img src="images/cleaning-team.jpg" alt="Our cleaning team" class="about-img">
+                    <div class="experience-badge">
+                        <span>10+</span>
+                        <p>Years Experience</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials" id="testimonials">
+        <div class="container">
+            <h2 class="section-title">What Our Clients Say</h2>
+            <p class="section-subtitle">Homes we've transformed</p>
+            
+            <div class="testimonial-slider">
+                <div class="testimonial active">
+                    <div class="testimonial-content">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p>"Sparkle Home Cleaning has been a game-changer for our family. With two kids and two dogs, our house was always a mess. Now it's consistently clean and we have our weekends back!"</p>
+                        <div class="client-info">
+                            <img src="images/client1.jpg" alt="Ismael Johnson">
+                            <div>
+                                <h4>Ismael Johnson</h4>
+                                <span>Bi-weekly cleaning client</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial">
+                    <div class="testimonial-content">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p>"I hired Sparkle for a deep clean before selling my house. The realtor said it was the cleanest home she'd ever shown and we got multiple offers above asking price!"</p>
+                        <div class="client-info">
+                            <img src="images/client2.jpg" alt="Michael Chen">
+                            <div>
+                                <h4>Michael Chen</h4>
+                                <span>Move-out cleaning client</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial">
+                    <div class="testimonial-content">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p>"As someone with allergies, I appreciate that they use hypoallergenic products. My home has never been cleaner and I can actually breathe easier now."</p>
+                        <div class="client-info">
+                            <img src="images/client3.jpg" alt="Emily Rodriguez">
+                            <div>
+                                <h4>Emily Rodriguez</h4>
+                                <span>Weekly cleaning client</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="slider-controls">
+                    <button class="slider-prev"><i class="fas fa-chevron-left"></i></button>
+                    <div class="slider-dots">
+                        <span class="dot active"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                    </div>
+                    <button class="slider-next"><i class="fas fa-chevron-right"></i></button>
+                </div>
+            </div>
+            
+            <div class="before-after">
+                <h3>See the Difference</h3>
+                <div class="comparison-container">
+                    <div class="image-comparison">
+                        <div class="image-before">
+                            <img src="images/before.jpg" alt="Before cleaning">
+                            <span>Before</span>
+                        </div>
+                        <div class="image-after">
+                            <img src="images/after.jpg" alt="After cleaning">
+                            <span>After</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="contact-content">
+                <div class="contact-form">
+                    <h2 class="section-title">Get Your Free Quote</h2>
+                    <form id="quoteForm" action="form-success.html" method="GET">
+
+                        <div class="form-group">
+                            <label for="name">Full Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Phone</label>
+                            <input type="tel" id="phone" name="phone">
+                        </div>
+                        <div class="form-group">
+                            <label for="service">Service Needed</label>
+                            <select id="service" name="service">
+                                <option value="regular">Regular Cleaning</option>
+                                <option value="deep">Deep Cleaning</option>
+                                <option value="move">Move In/Out</option>
+                                <option value="post-construction">Post-Construction</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Additional Details</label>
+                            <textarea id="message" name="message" rows="4"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Request Quote</button>
+                    </form>
+                </div>
+                <div class="contact-info">
+                    <h3>Contact Information</h3>
+                    <div class="info-item">
+                        <i class="fas fa-phone"></i>
+                        <span>(555) 123-4567</span>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-envelope"></i>
+                        <span>hello@sparklehomecleaning.com</span>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>123 Clean Street, Suite 100<br>San Francisco, CA 94110</span>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-clock"></i>
+                        <span>Monday - Friday: 8am - 6pm<br>Saturday: 9am - 2pm</span>
+                    </div>
+                    
+                    <div class="service-area">
+                        <h4>Service Area</h4>
+                        <p>We serve the greater San Francisco Bay Area including:</p>
+                        <ul>
+                            <li>San Francisco</li>
+                            <li>Oakland</li>
+                            <li>Berkeley</li>
+                            <li>San Mateo</li>
+                            <li>Redwood City</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="main-footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-about">
+                    <div class="logo">
+                        <i class="fas fa-broom"></i>
+                        <h3>Sparkle Home Cleaning</h3>
+                    </div>
+                    <p>Professional residential cleaning services that bring the sparkle back to your home with eco-friendly products and attention to detail.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-yelp"></i></a>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="team.html">About Us</a></li>
+                        <li><a href="#testimonials">Testimonials</a></li>
+                        <li><a href="faq.html">FAQ</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-services">
+                    <h4>Our Services</h4>
+                    <ul>
+                        <li><a href="#">Regular Cleaning</a></li>
+                        <li><a href="#">Deep Cleaning</a></li>
+                        <li><a href="#">Move In/Out</a></li>
+                        <li><a href="#">Post-Construction</a></li>
+                        <li><a href="#">Window Cleaning</a></li>
+                    </ul>
+                </div>
+                <div class="footer-video">
+                    <a href="https://www.youtube.com/watch?v=YOUR_VIDEO_ID" target="_blank" rel="noopener">📹 Watch Project Demo</a>
+                </div>
+                <div class="footer-newsletter">
+                    <h4>Cleaning Tips</h4>
+                    <p>Subscribe to receive our monthly cleaning tips and special offers.</p>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="Your email address">
+                        <button type="submit">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 Sparkle Home Cleaning. All rights reserved.</p>
+                <div class="footer-legal">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                    <a href="#">License & Insurance</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script type="module" src="scripts/main.js"></script>
+</body>
+</html>

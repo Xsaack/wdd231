@@ -1,0 +1,107 @@
+[
+    {
+        "id": 1,
+        "name": "Basic Cleaning",
+        "price": "$100",
+        "duration": "2 hours",
+        "description": "Includes vacuuming, dusting, and surface sanitizing."
+    },
+    {
+        "id": 2,
+        "name": "Standard Cleaning",
+        "price": "$150",
+        "duration": "3 hours",
+        "description": "Basic cleaning plus kitchen and bathroom deep clean."
+    },
+    {
+        "id": 3,
+        "name": "Deep Cleaning",
+        "price": "$200",
+        "duration": "4 hours",
+        "description": "Extensive cleaning including baseboards, windows, and appliances."
+    },
+    {
+        "id": 4,
+        "name": "Move In Cleaning",
+        "price": "$250",
+        "duration": "5 hours",
+        "description": "Perfect before moving into a new place. Includes all deep clean services."
+    },
+    {
+        "id": 5,
+        "name": "Move Out Cleaning",
+        "price": "$250",
+        "duration": "5 hours",
+        "description": "Designed for end-of-lease cleanup to secure your deposit."
+    },
+    {
+        "id": 6,
+        "name": "Green Cleaning",
+        "price": "$180",
+        "duration": "3.5 hours",
+        "description": "Eco-friendly products used to clean your home safely."
+    },
+    {
+        "id": 7,
+        "name": "One-Time Cleaning",
+        "price": "$130",
+        "duration": "2.5 hours",
+        "description": "For special occasions or guests coming over."
+    },
+    {
+        "id": 8,
+        "name": "Seasonal Cleaning",
+        "price": "$220",
+        "duration": "4 hours",
+        "description": "Ideal for spring/fall cleaning and organizing."
+    },
+    {
+        "id": 9,
+        "name": "Post-Construction",
+        "price": "$300",
+        "duration": "6 hours",
+        "description": "Cleans up all dust and debris after renovation or construction."
+    },
+    {
+        "id": 10,
+        "name": "Window Cleaning",
+        "price": "$100",
+        "duration": "2 hours",
+        "description": "Streak-free interior and exterior window cleaning."
+    },
+    {
+        "id": 11,
+        "name": "Carpet Cleaning",
+        "price": "$160",
+        "duration": "3 hours",
+        "description": "Steam carpet cleaning with stain treatment."
+    },
+    {
+        "id": 12,
+        "name": "Appliance Cleaning",
+        "price": "$90",
+        "duration": "1.5 hours",
+        "description": "Includes refrigerator, oven, and microwave cleaning."
+    },
+    {
+        "id": 13,
+        "name": "Bathroom Detailing",
+        "price": "$110",
+        "duration": "2 hours",
+        "description": "Tiles, grout, and fixtures deep cleaned."
+    },
+    {
+        "id": 14,
+        "name": "Pet Hair Removal",
+        "price": "$120",
+        "duration": "2 hours",
+        "description": "Removes fur from upholstery, carpets, and corners."
+    },
+    {
+        "id": 15,
+        "name": "Customized Cleaning",
+        "price": "Varies",
+        "duration": "Flexible",
+        "description": "Tailored services to fit unique client needs."
+    }
+]

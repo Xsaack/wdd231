@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Emerald Forest Loop",
+    "location": "Olympic National Park",
+    "difficulty": "Moderate",
+    "distance": 4.5,
+    "type": "Loop",
+    "description": "A lush, scenic trail through dense moss-covered forests and waterfalls."
+  },
+  {
+    "name": "Sunset Ridge Trail",
+    "location": "Mount Rainier",
+    "difficulty": "Hard",
+    "distance": 6.2,
+    "type": "Out & Back",
+    "description": "Panoramic mountain views and alpine meadows await along this challenging ascent."
+  },
+  {
+    "name": "Riverwalk Path",
+    "location": "Portland",
+    "difficulty": "Easy",
+    "distance": 2.1,
+    "type": "Loop",
+    "description": "Urban nature trail along the riverfront with plenty of birdwatching opportunities."
+  }
+]

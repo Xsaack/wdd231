@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Isaac Gaxiola">
+  <meta name="description" content="EcoTrail Adventures - Sustainable hiking tours and outdoor adventures.">
+  <meta property="og:title" content="EcoTrail Adventures">
+  <meta property="og:description" content="Join EcoTrail Adventures for eco-friendly hiking tours and nature exploration.">
+  <meta property="og:image" content="images/og-image.jpg">
+  <meta property="og:url" content="https://ecotrailadventures.com">
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+  <title>EcoTrail Adventures</title>
+  <link rel="stylesheet" href="styles/styles.css">
+  <script type="module" src="scripts/main.js" defer></script>
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="logo">EcoTrail</div>
+      <button class="menu-toggle" aria-label="Toggle Menu">&#9776;</button>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="tours.html">Tours</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h1>Welcome to EcoTrail Adventures</h1>
+      <p>Explore the beauty of nature with our sustainable guided tours.</p>
+      <a href="tours.html" class="cta-button">View Tours</a>
+    </section>
+
+    <section class="features">
+      <h2>Why Choose Us?</h2>
+      <ul>
+        <li>🌲 Eco-Friendly Practices</li>
+        <li>🗺️ Expert Local Guides</li>
+        <li>🏞️ Scenic Trails</li>
+      </ul>
+    </section>
+
+    <section class="dynamic-tours">
+      <h2>Popular Trails</h2>
+      <div id="trail-list" class="card-grid">
+        <!-- Dynamic content inserted here by JavaScript -->
+      </div>
+    </section>
+
+    <section class="newsletter">
+      <h2>Join Our Newsletter</h2>
+      <form id="signup-form" action="form-success.html" method="get">
+        <label for="fullname">Full Name:</label>
+        <input type="text" id="fullname" name="fullname" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <button type="submit">Subscribe</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 EcoTrail Adventures | <a href="attributions.html">Attributions</a> | <a href="https://youtube.com/my-demo-video" target="_blank">Video Demo</a></p>
+  </footer>
+
+  <dialog id="trailModal">
+    <div class="modal-content">
+      <button id="closeModal">Close</button>
+      <div id="modalDetails"></div>
+    </div>
+  </dialog>
+</body>
+</html>
